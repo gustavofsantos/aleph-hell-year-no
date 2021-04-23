@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial sans-serif;
+  font-size: 16px;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+@media screen and (min-width: 700px) {
+  .page {
+    max-width: 30rem;
+  }
+}
+    
+.title {
+  font-weight: bold;
+  font-size: 4rem;
+}
+
+.text {
+  font-weight: 600;
+}
+
+.button {
+  padding: 0.68rem 1rem;
+  border: solid 1px #ccc;
+  border-radius: 0.42rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.button .primary {
+
+}
+
+.stack {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.mb-2 {
+  margin-bottom: 2rem;
+}
+
+.mb-4 {
+  margin-bottom: 4rem;
+}
+
+.ml-4 {
+  margin-left: 4rem;
+}
